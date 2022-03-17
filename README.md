@@ -1,3 +1,3 @@
 # notes
 
-- [test] (./topics/test.md)
+- [test](./topics/test.md)
