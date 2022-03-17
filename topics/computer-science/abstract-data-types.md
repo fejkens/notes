@@ -1,0 +1,3 @@
+# Abstract data types
+
+An abstract data type is an implementation-free view of the data. We are only concerned about how we're going to interact with out data and what functionality we need from it but the actual implementation is hidden, unimportant. By creating this barrier we are able to build applications and then change the implementation of a data type without affecting the rest of the build.

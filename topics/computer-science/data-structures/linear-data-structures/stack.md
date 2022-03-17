@@ -1,0 +1,3 @@
+# Stack
+
+A stack is a linear structure where the last item to be added is also the first one to be removed. This is called the Last In, First Out principle - LIFO. A real-world analogy is a stack of trays in a restaurant, when a tray is returned, it is placed at the top of the stack and when one needs to be taken, it is also taken from the top of the stack. The trays at the bottom are not used unless all trays on top are in use.
