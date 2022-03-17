@@ -1,6 +1,6 @@
 # Data structures
 
-- [Linear Data Structures](../topics/computer-science/data-structures/linear-data-structures/linear-data-structures.md)
+- [Linear Data Structures](./topics/computer-science/data-structures/linear-data-structures/linear-data-structures.md)
 
 Data structures explain how we store data in our programs. These can link the data objects in a linear fashion (lists, arrays) or in a tree-like structure (trees). 
 
