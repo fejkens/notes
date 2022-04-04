@@ -1,0 +1,27 @@
+### MVC Structure
+
+MVC is a design patter for developing applications. MVC is a way of structuring a web application project in a way that categorises code. For example, code used to generate HTML pages lives separately from code that deals with incoming HTTP requests. This helps us keep code cleaner and separate logic.
+
+MVC stands for:
+
+*M*odel
+*V*iew
+*C*ontroller
+
+#### MVC Structure diagram
+
+![MVC Structure diagram](../pics/mvc-diagram.png)
+
+#### Models
+
+Models do not contain any logic inside but simply represent the data. If our application connects to a database, models will typically be created to represent database tables. Properties inside of the model will represent the columns inside of a table.
+
+When creating models, we are creating classes with properties that the model should have. For example, a `Car` model might have properties such as `Wheels`, `Brand`, `Year`, etc.
+
+### Views
+
+Views are .cshtml files (When using C#) that are responsible for generating HTML pages displayed to the user. Inside of these, we can use Razor syntax to write C# inside of HTML to generate our data.
+
+### Controllers
+
+Controllers are responsible for handling the incoming HTTP requests, working with the models and returning the data using the views. They work as the central point of the application where most of the logic happens.

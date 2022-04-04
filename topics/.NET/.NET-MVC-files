@@ -1,0 +1,39 @@
+### Project file (.csproj if using C#)
+
+The project file can be accessed by double-clicking on the project name in Visual Studio or by right-clicking on the project name -> Edit Project File.
+
+The project file is an XML file that stores data such as target framework (In a .NET 5.0 project, the property will be <TargetFramework>net5.0</TargetFramework>) or package references. Any packages that we add to our project will have to be added to the project file. NuGet will automatically edit the project file for us when using it to download packages.
+
+### Program.cs
+
+The Program.cs file contains a `Program` class with a `Main` method. This method is the entry point of the application. When the program starts running, it will start by executing the code inside of this method. 
+
+In an MVC project, the Program.cs file contains code that builds our web application.
+
+### Startup.cs
+
+This file contains a `ConfigureServices` method which is used to define default implementations of iterfaces for dependency injection. Example: `services.AddSingleton<IEmail, Email>();`
+
+### appsettings.json
+
+This file stores basic application settings and can be used to store data such as connection strings
+
+### launchSettings.json
+
+This file stores the different profiles for our application that we can use for development. We can specify things such as environment (Development, Production) and application URLs
+
+### wwwroot
+
+This folder contains the static files that our application will send to the browser that sends the GET request.
+
+#### css
+
+CSS files used to style the pages.
+
+#### js
+
+JavaScript files with client-side code.
+
+#### lib
+
+External JavaScript libraries that our project requires. 

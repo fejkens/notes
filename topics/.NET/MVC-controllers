@@ -1,0 +1,12 @@
+### MVC Controllers
+
+### Controller actions
+
+Actions are methods that return Views or JSON data. Any public method of a controller is an action. Action methods have to return IActionMethod.
+
+Action methods can result one of the five major sets of action results:
+- Status Code (Returning HTTP status code)
+- Status Code with Object result (Returning HTTP status code with a passed in object)
+- Redirect result (Redirecting to a different action method)
+- File result (Returning a file)
+- Content result (Returning a view)
